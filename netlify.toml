@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+[[redirects]]
+  force = true
+  from = "/subs/*"
+  status = 200
+  to = "/.netlify/functions/api/:splat"

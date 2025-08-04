@@ -1,0 +1,22 @@
+{
+  "name": "sharkbrightapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "yt.js",
+  "scripts": {
+    "start": "node yt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.15.0",
+    "serverless-http": "^3.2.0"
+  }
+}
